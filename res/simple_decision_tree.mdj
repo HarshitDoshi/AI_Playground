@@ -1,0 +1,900 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFna6zkdDMbSQI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFna6zkdTMcMpE=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFna64wcTMih78=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna64wcDMgdM4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna64wcTMj7QU=",
+									"_parent": {
+										"$ref": "AAAAAAFna64wcTMih78="
+									},
+									"font": "Arial;28;0",
+									"left": 98,
+									"top": 34,
+									"width": 245,
+									"height": 56,
+									"text": "Does the species eat meat?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;28;0",
+							"left": 88,
+							"top": 24,
+							"width": 265,
+							"height": 76,
+							"nameLabel": {
+								"$ref": "AAAAAAFna64wcTMj7QU="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFna6+UcDMywGs=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna6+UbjMweXI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna6+UcDMzELw=",
+									"_parent": {
+										"$ref": "AAAAAAFna6+UcDMywGs="
+									},
+									"font": "Arial;13;0",
+									"left": 60.542236328125,
+									"top": 255.5,
+									"width": 57.08447265625,
+									"height": 15,
+									"text": "No",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 248,
+							"width": 114.1689453125,
+							"height": 30,
+							"nameLabel": {
+								"$ref": "AAAAAAFna6+UcDMzELw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna6+U6zM6h2o=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna6+U6zM4FqE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna6+U6zM7RgA=",
+									"_parent": {
+										"$ref": "AAAAAAFna6+U6zM6h2o="
+									},
+									"model": {
+										"$ref": "AAAAAAFna6+U6zM4FqE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 196,
+									"top": 271,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna6+U6zM6h2o="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna6+UcDMywGs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna64wcTMih78="
+							},
+							"lineStyle": 2,
+							"points": "197:99;197:262;145:262",
+							"nameLabel": {
+								"$ref": "AAAAAAFna6+U6zM7RgA="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFna6+mLDNDydQ=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna6+mLDNBEK8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna6+mLDNEDVE=",
+									"_parent": {
+										"$ref": "AAAAAAFna6+mLDNDydQ="
+									},
+									"font": "Arial;13;0",
+									"left": 364.542236328125,
+									"top": 135.5,
+									"width": 57.08447265625,
+									"height": 15,
+									"text": "Yes",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 128,
+							"width": 114.1689453125,
+							"height": 30,
+							"nameLabel": {
+								"$ref": "AAAAAAFna6+mLDNEDVE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna6+mnzNLqMY=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna6+mnzNJJoQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna6+mnzNMRmw=",
+									"_parent": {
+										"$ref": "AAAAAAFna6+mnzNLqMY="
+									},
+									"model": {
+										"$ref": "AAAAAAFna6+mnzNJJoQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 238,
+									"top": 121,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna6+mnzNLqMY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna6+mLDNDydQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna64wcTMih78="
+							},
+							"lineStyle": 2,
+							"points": "238:99;238:142;336:142",
+							"nameLabel": {
+								"$ref": "AAAAAAFna6+mnzNMRmw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFna7BsLDNZyWY=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7BsKzNXt3Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7BsLDNa5Uw=",
+									"_parent": {
+										"$ref": "AAAAAAFna7BsLDNZyWY="
+									},
+									"font": "Arial;28;0",
+									"left": 18,
+									"top": 357,
+									"width": 135.37890625,
+									"height": 84,
+									"text": "Predicted category: Herbivores",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;28;0",
+							"left": 8,
+							"top": 347,
+							"width": 155.37890625,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7BsLDNa5Uw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7BsozNhQvM=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7BsozNffTA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7BsozNio0s=",
+									"_parent": {
+										"$ref": "AAAAAAFna7BsozNhQvM="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7BsozNffTA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 99,
+									"top": 305,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7BsozNhQvM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7BsLDNZyWY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna6+UcDMywGs="
+							},
+							"lineStyle": 2,
+							"points": "85:277;85:347",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7BsozNio0s="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFna7F8eDNvQHM=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7F8eTNwQew=",
+									"_parent": {
+										"$ref": "AAAAAAFna7F8eDNvQHM="
+									},
+									"font": "Arial;28;0",
+									"left": 290,
+									"top": 218,
+									"width": 221,
+									"height": 56,
+									"text": "Does the species eat plants too?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;28;0",
+							"left": 280,
+							"top": 208,
+							"width": 241,
+							"height": 76,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7F8eTNwQew="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7F86TN3t7U=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7F86TN1ue0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7F86TN4wbo=",
+									"_parent": {
+										"$ref": "AAAAAAFna7F86TN3t7U="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7F86TN1ue0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 411,
+									"top": 175,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7F86TN3t7U="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7F8eDNvQHM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna6+mLDNDydQ="
+							},
+							"lineStyle": 2,
+							"points": "397:157;397:208",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7F86TN4wbo="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFna7KiMjOM5II=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7KiMTOKQJo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7KiMjONy48=",
+									"_parent": {
+										"$ref": "AAAAAAFna7KiMjOM5II="
+									},
+									"font": "Arial;13;0",
+									"left": 276.542236328125,
+									"top": 327.5,
+									"width": 57.08447265625,
+									"height": 15,
+									"text": "Yes",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 320,
+							"width": 114.1689453125,
+							"height": 30,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7KiMjONy48="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7KiszOU6mI=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7KisjOSbWQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7KiszOVThI=",
+									"_parent": {
+										"$ref": "AAAAAAFna7KiszOU6mI="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7KisjOSbWQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 379,
+									"top": 343,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7KiszOU6mI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7KiMjOM5II="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna7F8eDNvQHM="
+							},
+							"lineStyle": 2,
+							"points": "380:283;380:334;361:334",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7KiszOVThI="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFna7KnBjOdVho=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7KnAzObF9g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7KnBjOeIqQ=",
+									"_parent": {
+										"$ref": "AAAAAAFna7KnBjOdVho="
+									},
+									"font": "Arial;13;0",
+									"left": 492.542236328125,
+									"top": 327.5,
+									"width": 57.08447265625,
+									"height": 15,
+									"text": "No",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 464,
+							"top": 320,
+							"width": 114.1689453125,
+							"height": 30,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7KnBjOeIqQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7KndjOlxb8=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7KndTOjBPM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7KndjOmOBA=",
+									"_parent": {
+										"$ref": "AAAAAAFna7KndjOlxb8="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7KndTOjBPM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 313,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7KndjOlxb8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7KnBjOdVho="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna7F8eDNvQHM="
+							},
+							"lineStyle": 2,
+							"points": "418:283;418:334;464:334",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7KndjOmOBA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFna7L/yDOyjkA=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7L/yDOw0jE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7L/yDOzSQM=",
+									"_parent": {
+										"$ref": "AAAAAAFna7L/yDOyjkA="
+									},
+									"font": "Arial;28;0",
+									"left": 226,
+									"top": 426,
+									"width": 135.365234375,
+									"height": 84,
+									"text": "Predicted category: Omnivores",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;28;0",
+							"left": 216,
+							"top": 416,
+							"width": 155.365234375,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7L/yDOzSQM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7MAOjO6x8A=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7MAOjO4R1k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7MAOjO7bFM=",
+									"_parent": {
+										"$ref": "AAAAAAFna7MAOjO6x8A="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7MAOjO4R1k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 315,
+									"top": 375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7MAOjO6x8A="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7L/yDOyjkA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna7KiMjOM5II="
+							},
+							"lineStyle": 2,
+							"points": "301:349;301:416",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7MAOjO7bFM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFna7OmUzPHZxw=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7OmUjPF8XA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFna7OmUzPI/js=",
+									"_parent": {
+										"$ref": "AAAAAAFna7OmUzPHZxw="
+									},
+									"font": "Arial;28;0",
+									"left": 450,
+									"top": 426,
+									"width": 135.37890625,
+									"height": 84,
+									"text": "Predicted category: Carnivores",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;28;0",
+							"left": 440,
+							"top": 416,
+							"width": 155.37890625,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFna7OmUzPI/js="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFna7Om2jPPjCU=",
+							"_parent": {
+								"$ref": "AAAAAAFna6zkdTMcMpE="
+							},
+							"model": {
+								"$ref": "AAAAAAFna7Om2TPNUIM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFna7Om2jPQvI0=",
+									"_parent": {
+										"$ref": "AAAAAAFna7Om2jPPjCU="
+									},
+									"model": {
+										"$ref": "AAAAAAFna7Om2TPNUIM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 531,
+									"top": 375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFna7Om2jPPjCU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFna7OmUzPHZxw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFna7KnBjOdVho="
+							},
+							"lineStyle": 2,
+							"points": "517:349;517:416",
+							"nameLabel": {
+								"$ref": "AAAAAAFna7Om2jPQvI0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFna64wcDMgdM4=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Does the species eat meat?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna6+U6zM4FqE=",
+							"_parent": {
+								"$ref": "AAAAAAFna64wcDMgdM4="
+							},
+							"source": {
+								"$ref": "AAAAAAFna64wcDMgdM4="
+							},
+							"target": {
+								"$ref": "AAAAAAFna6+UbjMweXI="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna6+mnzNJJoQ=",
+							"_parent": {
+								"$ref": "AAAAAAFna64wcDMgdM4="
+							},
+							"source": {
+								"$ref": "AAAAAAFna64wcDMgdM4="
+							},
+							"target": {
+								"$ref": "AAAAAAFna6+mLDNBEK8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFna6+UbjMweXI=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "No",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7BsozNffTA=",
+							"_parent": {
+								"$ref": "AAAAAAFna6+UbjMweXI="
+							},
+							"source": {
+								"$ref": "AAAAAAFna6+UbjMweXI="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7BsKzNXt3Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFna6+mLDNBEK8=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Yes",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7F86TN1ue0=",
+							"_parent": {
+								"$ref": "AAAAAAFna6+mLDNBEK8="
+							},
+							"source": {
+								"$ref": "AAAAAAFna6+mLDNBEK8="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFna7BsKzNXt3Y=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Predicted category: Herbivores"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFna7F8eDNt6bY=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Does the species eat plants too?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7KisjOSbWQ=",
+							"_parent": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							},
+							"source": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7KiMTOKQJo="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7KndTOjBPM=",
+							"_parent": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							},
+							"source": {
+								"$ref": "AAAAAAFna7F8eDNt6bY="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7KnAzObF9g="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFna7KiMTOKQJo=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Yes",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7MAOjO4R1k=",
+							"_parent": {
+								"$ref": "AAAAAAFna7KiMTOKQJo="
+							},
+							"source": {
+								"$ref": "AAAAAAFna7KiMTOKQJo="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7L/yDOw0jE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFna7KnAzObF9g=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "No",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFna7Om2TPNUIM=",
+							"_parent": {
+								"$ref": "AAAAAAFna7KnAzObF9g="
+							},
+							"source": {
+								"$ref": "AAAAAAFna7KnAzObF9g="
+							},
+							"target": {
+								"$ref": "AAAAAAFna7OmUjPF8XA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFna7L/yDOw0jE=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Predicted category: Omnivores"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFna7OmUjPF8XA=",
+					"_parent": {
+						"$ref": "AAAAAAFna6zkdDMbSQI="
+					},
+					"name": "Predicted category: Carnivores"
+				}
+			]
+		}
+	]
+}
